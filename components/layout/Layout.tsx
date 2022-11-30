@@ -6,7 +6,7 @@ import Head from 'next/head'
 import { Navbar, Sidebar } from '../ui';
 
 interface Props {
-        title?:'string'
+        title?:string
     }
 
 export const Layout:FC<PropsWithChildren<Props>>= ({title='Open-Jira',children}) => {
